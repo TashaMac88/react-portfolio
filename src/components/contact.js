@@ -25,12 +25,6 @@ class Contact extends Component {
                         <List>
                             <ListItem>
                                 <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                    <i className="fa fa-phone-square" aria-hidden="true"/>
-                                    (520)203-4684
-                                    </ListItemContent>
-                            </ListItem>
-                            <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-envelope" aria-hidden="true"/>
                                     latashammiller@gmail.com
                                     </ListItemContent>
