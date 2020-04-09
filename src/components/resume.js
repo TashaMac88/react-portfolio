@@ -44,7 +44,7 @@ class Resume extends Component {
                             startYear={2019}
                             endYear={2019}
                             schoolName="University of Arizona"
-                            schoolDescription="Completed a full stack coding course"
+                            schoolDescription="Completed a full stack coding bootcamp"
                         />
 
                         <hr style={{ borderTop: '3px solid #e22947' }} />
@@ -67,6 +67,11 @@ class Resume extends Component {
                         <hr style={{ borderTop: '3px solid #e22947' }} />
                         <h2>Skills</h2>
                         <Skills
+                        Skill="React.js"
+                        ListItem="React.js">
+                        </Skills>
+
+                        <Skills
                         Skill="Javascript"
                         ListItem="Javascript">
                         </Skills>
@@ -76,10 +81,6 @@ class Resume extends Component {
                         ListItem="HTML/CSS">
                         </Skills>
 
-                        <Skills
-                        Skill="React.js"
-                        ListItem="React.js">
-                        </Skills>
                     </Cell>
                 </Grid>
             </div>

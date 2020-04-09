@@ -41,7 +41,7 @@ class Projects extends Component {
 
                     </CardText>
                     <CardActions border>
-                        <Button colored>GitHub</Button>
+                    <Button colored><a href="https://github.com/TashaMac88/bamazon">GitHub</a></Button>
                     </CardActions>
                     <CardMenu style={{color: '#f'}}>
                         <IconButton name="share" />
@@ -52,12 +52,12 @@ class Projects extends Component {
         } else if(this.state.activeTab === 2) {
             return (
                 <div><Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: 'black', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTviNwuXvTwl6JikrpPQWp3ojcgAbsOdFBQk6-aw_oVTE40XStj&usqp=CAU) center / cover'}} >Liri Bot</CardTitle>
+                <CardTitle style={{color: 'White', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_KppJaZM7GsfuaHqwDRtX4x9SWZrJcYPNL07IFEZOyBclIFtN&usqp=CAU) center / cover'}} >Word Guess</CardTitle>
                 <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                 In this application I've created a word guess game that runs on the browser using JavaScript, HTML and CSS.  
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
+                    <Button colored><a href="https://github.com/TashaMac88/WordGuessGame">GitHub</a></Button>
                 </CardActions>
                 <CardMenu style={{color: '#f'}}>
                     <IconButton name="share" />
@@ -92,7 +92,7 @@ class Projects extends Component {
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>Clicky Game</Tab>
                     <Tab>Bamazon</Tab>
-                    <Tab>Liri-Bot</Tab>
+                    <Tab>Word Guess</Tab>
                     <Tab>Burgers</Tab>
                 </Tabs>
 
