@@ -38,6 +38,17 @@ background: linear-gradient(to bottom, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, 
   display: flex;
 }
 
+/*Resume Page css */
+.resume-right-col {
+  background: #272727;
+  color: white;
+  padding: 2em;
+}
+
+.skills-text {
+  color: white;
+  padding: 2em;
+}
 /*contact page css */
 .contact-body {
   margin: auto;
@@ -65,6 +76,7 @@ background: linear-gradient(to bottom, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, 
 .contact-grid p {
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
+  font-size: 25px;
 }
 
 .contact-grid hr {
